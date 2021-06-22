@@ -35,7 +35,7 @@ f.write("Current temperature is: {:.2f} deg C\n".format(temp_city))
 f.write("Current weather desc  : {}\n".format(weather_desc))
 f.write("Current Humidity      : {} % \n".format(hmdt))
 f.write("Current wind speed    : {} kmph \n".format(wind_spd))
-
+# reading data which is stored in txt file
 f.close()
 pr_f =  open('weather.txt')
 a = pr_f.readlines()
